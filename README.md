@@ -4,12 +4,10 @@
 
 ### HTML Syntax
 
-tags have openings and closings
-Example: <br>
-|Code Synatx | Output|
-|-------------|--------|
-|&lt;p&gt;this is a test &lt;i&gt;italic&lt;/i&gt; text &lt;/p&gt; | <p>this is a test <i>italic</i> text </p> |
-|&lt;br&gt|this will create a new line|
+DOM (document object model)
+A tree structure representing HTML elements in a webpage, allowing JavaScript to interact with and modify the content dynamically.
+It basically enables updating content whether it's visibility , styling , object exisitance (basically anything that has to do with modifying the page content)
+
 
 
 
