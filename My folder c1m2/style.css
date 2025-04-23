@@ -1,0 +1,44 @@
+/*
+HTML selector this changes all the elements that are div or table or th or tf
+*/
+div {
+    border: 1px solid black;
+    padding: 2px;
+ }
+
+ table,th,td{
+     border: 1px solid black;
+     padding: 1px;
+     border-collapse: collapse;
+ }
+/*
+To change the style of a specific element we'll assign them an id and use the id as a selector
+ex: <h1 id="idname">
+*/
+#Dishes{
+    padding: 10px;
+    border: 1px solid orange;
+    color: chocolate;
+}
+#Drinks{
+    padding: 10px;
+    border: 1px solid skyblue;
+    color: cornflowerblue;
+}
+/*
+to group a bunch of elements together we cna use a class selector
+*/
+.Headers:hover{
+    color: blueviolet;
+    text-decoration-line: underline;
+    text-decoration-color: crimson;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+}
+
+/* 
+The more precise a selector is the higher it's priority is 
+html selector -> class selector -> id selector
+least                                   highest
+priority                                priority
+*/

@@ -3,26 +3,16 @@
     <head>
         <!-- nothing in the head is displayed on the page you can define the tab title -->
          <title>This is my tab name</title>
+         <!-- to link to a style sheet we use the rel tag-->
+         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <style>
-            div {
-               border: 1px solid black;
-               padding: 2px;
-            }
-
-            table,th,td{
-                border: 1px solid black;
-                padding: 1px;
-                border-collapse: collapse;
-            }
-         </style>
          
-         <h1>Menu</h1> <!-- H1 heading -->
+         <h1 class="Headers">Menu</h1> <!-- H1 heading -->
          
         <div style="margin: 10px;">
 
-            <h2>Dishes</h2>
+            <h2 class="Headers" id="Dishes">Dishes</h2>
 
             <ul>
                 <li>
@@ -84,7 +74,7 @@
 
         <div style="margin: 10px;">
 
-            <h2>Drinks</h2>
+            <h2 class="Headers" id="Drinks">Drinks</h2>
             <ul><!-- unordered list for ordered list use <ol>-->
                 <li>
                     <h3>Lipton Tea</h3>
