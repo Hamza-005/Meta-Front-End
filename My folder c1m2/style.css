@@ -1,9 +1,13 @@
 /*
-HTML selector this changes all the elements that are div or table or th or tf
+HTML selector this changes all the elements that are div or table or th 
 */
 div {
-    border: 1px solid black;
+    border-width: thin;
     padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
  }
 
  table,th,td{
@@ -42,3 +46,8 @@ html selector -> class selector -> id selector
 least                                   highest
 priority                                priority
 */
+
+#shrimpic{
+    width: 100%;
+    height: auto;
+}
