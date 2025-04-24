@@ -2,7 +2,7 @@
 HTML selector this changes all the elements that are div or table or th or tf
 */
 div {
-    border-width: thin;
+    border: 1px solid black;
     padding: 2px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -10,7 +10,7 @@ div {
     margin-right: 3px;
  }
 
- table,th,td{
+th,td{
      border: 1px solid black;
      padding: 1px;
      border-collapse: collapse;
@@ -29,6 +29,11 @@ ex: <h1 id="idname">
     padding: 10px;
     border: 1px solid skyblue;
     color: cornflowerblue;
+}
+#t1,#t2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*
 to group a bunch of elements together we cna use a class selector
