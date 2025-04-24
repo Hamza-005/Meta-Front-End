@@ -1,5 +1,5 @@
 /*
-HTML selector this changes all the elements that are div or table or th 
+HTML selector this changes all the elements that are div or table or th or tf
 */
 div {
     border-width: thin;
@@ -48,6 +48,6 @@ priority                                priority
 */
 
 #shrimpic{
-    width: 100%;
-    height: auto;
+    width: 240px;
+    height: 240px;
 }
