@@ -1,6 +1,7 @@
 /*
-HTML selector this changes all the elements that are div or table or th or tf
+HTML selector this changes all the elements that are div or table or th/td
 */
+
 div {
     border: 1px solid black;
     padding: 2px;
@@ -16,6 +17,7 @@ th,td{
      border-collapse: collapse;
      text-align: center;
  }
+
 /*
 To change the style of a specific element we'll assign them an id and use the id as a selector
 ex: <h1 id="idname">
