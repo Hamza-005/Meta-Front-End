@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TestSite</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container">
+            
+             <div class="row">
+                
+                <div class="col">
+                    <h1>Our Menu</h1>
+                    
+                    <!--Suppose we want to display the dishes as cards we'll add a row under the first col this row will have cols-->
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <img src="tomahawksteak.webp" class="card-img-top"> <!-- instead of img-fluid we'll use card-img-top -->
+                                <div class="card-body"> <!-- In order to add the description we'll add the card-body div under each card-->
+                                    <h2 class="card-title">Tomahawk Steak <span class="badge bg-primary">New</span></h2> <!--Add card-title class to the header-->
+                                    <p class="card-text">Also called a cowboy steak, the tomahawk is a bone-in rib-eye with garlic-thyme butter sauce</p> <!--Add card text to the description-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <img src="chickentikkamasalaimg.webp" class="card-img-top">
+                                <div class="card-body">
+                                    <h2 class="card-title">Chicken Tikka masala</h2>
+                                    <p class="card-text"> Fine indian cusine made with boneless chicken, ground spices, onions, tomatoes, cream and herbs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <img src="shrimpalfredoimg.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h2 class="card-title">Shrimp Alfredo</h2>
+                                    <p class="card-text"> Fine italian cusine with a sea spin made with shrimp, fettuccine, heavy cream and Parmesan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+
+                    <h2>Prices</h2>
+
+                    <table class="table">
+                        <tr>
+                            <td>Tomahawk Steak</td>
+                            <td>$30</td>
+                        </tr>
+                        <tr>
+                            <td>Chicken Tikka masala</td>
+                            <td>$15</td>
+                        </tr>
+                        <tr>
+                            <td>Shrimp Alfredo</td>
+                            <td>$25</td>
+                        </tr>
+                    </table>
+                    <!--To alert the customers of the new dish we'll add an alert -->
+                    <div class="alert alert-info" role="alert">Try our new Tomahawk Steak !</div>
+
+                </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
