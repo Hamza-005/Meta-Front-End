@@ -41,7 +41,7 @@ Using JS developers can get the display size, orientation & Aspect Ratio<br>
 
 </ul>
 
-### Grid System
+### Bootstrap Grid System
 
 Bootstrap has a 12 grid system each row can have a maximum of 12 collumns. Usually, bootstrap automatically allocates the number of collumns needed. We can specify the number of collumns a collumn takeslets suppose we want a div to take 4 coloumns we'll use:
 
