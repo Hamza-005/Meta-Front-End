@@ -59,7 +59,10 @@ you can see this in practice in the bootstrapexplainedpt2.html file
 
 ### Bootstrap Cards and forms
 
-as shown in the bootstrapexplainedpt3.html file we can use cards for a smoother layout
+as shown in the bootstrapexplainedpt3.html file we can use cards for a smoother layout as seen below:
+
+<img width="1370" alt="Screenshot 2025-04-27 at 12 31 34 AM" src="https://github.com/user-attachments/assets/0fb2e06e-a1e0-47bc-a99a-72c71f845660" />
+
 for more inputs and form control <a href="https://getbootstrap.com/docs/5.0/forms/form-control/">click here</a>
 
 
