@@ -1,4 +1,4 @@
-# Meta-Course
+# Meta Front-End
 
 ## (C1-M2)
 
