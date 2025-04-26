@@ -17,10 +17,29 @@ It basically enables updating content whether it's visibility , styling , object
 ### Responsive Design
 
 <ul>
-<li>Felxible Grids</li>
-<li>Fluid Images</li>
-<li>Media Queries</li>
+
+<li>
+Felxible Grids<br>
+make measurments in percentages not in pixels
+</li>
+
+<li>Fluid Images <br>
+place the images in those grids/collumns with max-width set to 100%
+</li>
+
+<li>Media Queries<br>
+Using JS developers can get the display size, orientation & Aspect Ratio<br>
+Example:<br>
+@media only screen and(max-width:700px){<br>
+    body{<br>
+        background-color:blue;<br>
+    }<br>
+}<br>
+</li>
+
 </ul>
+
+
 
 
 
