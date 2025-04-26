@@ -29,8 +29,9 @@ place the images in those grids/collumns with max-width set to 100%
 
 <li>Media Queries<br>
 Using JS developers can get the display size, orientation & Aspect Ratio<br>
-Example:<br>
-@media only screen and(max-width:700px){<br>
+
+<br>Example:<br>
+@media only screen and(max-width:700px){<br style="margin-left:10px">
     body{<br>
         background-color:blue;<br>
     }<br>
