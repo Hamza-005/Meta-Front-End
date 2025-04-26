@@ -1,5 +1,7 @@
 # Meta Front-End
 
+editor's note: all files in this repo have my own spin to them none of these files are a "verbaitum" copy of those done in the cert
+
 ## (C1-M2)
 
 ### HTML Syntax
@@ -54,6 +56,11 @@ we can also specify the number of collumns used based on the screen size in orde
 for more on this <a href="https://getbootstrap.com/docs/4.0/layout/grid/">click here</a>
 
 you can see this in practice in the bootstrapexplainedpt2.html file
+
+### Bootstrap Cards and forms
+
+as shown in the bootstrapexplainedpt3.html file we can use cards for a smoother layout
+for more inputs and form control <a href="https://getbootstrap.com/docs/5.0/forms/form-control/">click here</a>
 
 
 
