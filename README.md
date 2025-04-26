@@ -36,9 +36,13 @@ Using JS developers can get the display size, orientation & Aspect Ratio<br>
         background-color:blue;<br>
     }<br>
 }<br>
+
 </li>
 
 </ul>
+
+<hr>
+
 
 
 

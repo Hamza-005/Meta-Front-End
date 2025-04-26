@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TestSite</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <!--Before Doing anything we need the container element in order to use the Bootstrap grid system -->
+        <div class="container">
+            
+            
+            <!-- After adding the container add the row content then under each row add the collumns-->
+             <div class="row">
+                
+                <div class="col">
+                    
+                    <h1>Our Menu</h1>
+
+                    <h2>Chicken Tikka masala</h2>
+                    <p> Fine indian cusine made with boneless chicken, ground spices, onions, tomatoes, cream and herbs.</p>
+                    
+                    <!--When adding images use img-fluid to ensure the image scales to it's parent collumn width -->
+                    <img src="chickentikkamasalaimg.webp" class="img-fluid">
+
+                    <h2>Shrimp Alfredo</h2>
+                    <p> Fine italian cusine with a sea spin made with shrimp, fettuccine, heavy cream and Parmesan</p>
+                    <img src="shrimpalfredoimg.jpg" class="img-fluid">
+
+                </div>
+                
+                <div class="col">
+
+                    <h2>Prices</h2>
+
+                    <!--Use bootstrap tables class-->
+                    <table class="table">
+                        <tr>
+                            <td>Chicken Tikka masala</td>
+                            <td>15$</td>
+                        </tr>
+                        <tr>
+                            <td>Shrimp Alfredo</td>
+                            <td>25$</td>
+                        </tr>
+                    </table>
+
+                </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
