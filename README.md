@@ -1,6 +1,6 @@
 # Meta Front-End
 
-editor's note: all files in this repo have my own spin to them none of these files are a "verbaitum" copy of those done in the cert
+### *Editor's note : all files in this repo have my own spin to them none of these files are a "verbaitum" copy of those done in the cert*
 
 ## (C1-M2)
 
