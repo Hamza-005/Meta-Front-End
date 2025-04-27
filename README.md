@@ -65,6 +65,12 @@ as shown in the bootstrapexplainedpt3.html file we can use cards for a smoother 
 
 for more inputs and form control <a href="https://getbootstrap.com/docs/5.0/forms/form-control/">click here</a>
 
+### Dynamic vs Static
+
+Static content consists of files that are sent from the web server to the browser exactly as they are stored, such as images and videos.
+
+Dynamic content is generated in real-time based on user input or other variables, like the current date, and typically takes longer to produce than static content.
+
 
 
 
