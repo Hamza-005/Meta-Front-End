@@ -71,7 +71,26 @@ Static content consists of files that are sent from the web server to the browse
 
 Dynamic content is generated in real-time based on user input or other variables, like the current date, and typically takes longer to produce than static content.
 
+### Single Page Applications (SPA)
 
+Simple and easy to use 
+one html page that gets it's contetnt updated based on how the users interact 
+there are two methods to build an SPA:
+
+<ul>
+    <li> <b>Bundling</b>: server provides all the necessary components for the page</li>
+    <li> <b>Lazy Loading</b>: server provides minumum resources</li>
+</ul>
+
+SPA's use JSON to update pages instead of replacing them with entire HTML files
+
+### React
+
+used to develop single page applications and mobile applications
+
+React is made up of components those components can be used together to create a web page
+
+React updates the virtual DOM and compares it to the previous version of the virtual DOM. If a change has occurred, only that element is updated in the browser DOM. Changes on the browser DOM cause the displayed webpage to change.
 
 
 
