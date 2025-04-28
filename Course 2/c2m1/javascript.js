@@ -177,6 +177,7 @@ for(var i=0; i <= myrocketx ;i++){
     }
 }
 console.log("Successfully Arived at the coordinates!");
-//increments the inner loop then outer loop
+
+//increments the inner loop then outer loop note: the more nested loops the slower the performance
 
 
