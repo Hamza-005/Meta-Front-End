@@ -87,5 +87,49 @@ iseven(2);
 iseven(5);
 
 
+//loops, conditions and switches
 
+for (let i = 0; i < 10; i++) {
+    console.log("Iterration", i);
+}
+
+function traficlight(input) {
+    switch (input) {
+        case "green":
+            console.log("GO! GO! GO!");
+            input = "yellow";
+            break;
+        case "yellow":
+            console.log("Get away while u still can");
+            input = "red";
+            break;
+        case "red":
+            console.log("Stop ! Halt mein frueind !");
+            input = "green";
+            break;
+    }
+}
+
+console.log("\n");
+var mylighttest="green";
+var tempiteration=0;
+if(mylighttest=="green"){
+    traficlight(mylighttest);
+    tempiteration+=1;
+
+}
+console.log(mylighttest);
+if(tempiteration){
+    console.log("\n the son of a gun made it !");
+}
+// age selector
+console.log("\n");
+var age = 10;
+if(age>=65){
+    console.log("You get your income from your pension");
+}else if(age>=18 && age<=65){
+    console.log("You get your income from your salary each month");
+}else{
+    console.log("You get your income from an allowance");
+}
 
