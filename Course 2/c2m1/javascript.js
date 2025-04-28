@@ -122,6 +122,8 @@ console.log(mylighttest);
 if(tempiteration){
     console.log("\n the son of a gun made it !");
 }
+
+
 // age selector
 console.log("\n");
 var age = 10;
@@ -132,4 +134,34 @@ if(age>=65){
 }else{
     console.log("You get your income from an allowance");
 }
+
+//weekly reminder
+var day = 'Sunday';
+switch(day) {
+    case 'Sunday':
+        console.log('Watch Software and Cybersec lectures',"and an hour of Coursera time");
+        break;
+    case 'Monday':
+       console.log('Watch Networks2, Arch2 & Wireless lectures',"and an hour of Coursera time");
+       break;
+   case 'Tuesday':
+       console.log('Head to uni for sunday lecs',"and an hour of Coursera time");
+       break;
+   case 'Wednesday':
+       console.log('head to uni for monday lecs',"and an hour of Coursera time");
+       break;
+   case 'Thursday':
+       console.log("Coursera day");
+       break;
+   case 'Friday':
+       console.log("Family time , and some self care");
+       break;
+   case 'Saturday':
+       console.log('Chill');
+       break;
+   default:
+       //this block will run if no condition matches
+       console.log('There is no such day');
+}
+
 
