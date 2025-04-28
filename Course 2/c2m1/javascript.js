@@ -15,6 +15,7 @@ greeting="Hello" + hamza;
 
 console.log("\n"+greeting);
 
+//first exersise of module 1
 var petdog = "Rex";
 var petcat= "Pepper";
 
