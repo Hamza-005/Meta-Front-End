@@ -2,6 +2,8 @@
 
 ### *Editor's note : all files in this repo have my own spin to them none of these files are a "verbaitum" copy of those done in the cert*
 
+# Course 1 (Introduction HTML+CSS Bootstrap)
+
 ## (C1-M2)
 
 ### HTML Syntax
@@ -92,8 +94,14 @@ React is made up of components those components can be used together to create a
 
 React updates the virtual DOM and compares it to the previous version of the virtual DOM. If a change has occurred, only that element is updated in the browser DOM. Changes on the browser DOM cause the displayed webpage to change.
 
+# Course 2 (Javascript)
 
+## C2-M1
 
+JS basis syntax vars,loops,conditional statements etc...<br>
+check the comments in the C2-M1 file <br>
+
+## C2-M1
 
 
 
