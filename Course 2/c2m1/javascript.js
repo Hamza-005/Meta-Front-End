@@ -165,3 +165,18 @@ switch(day) {
 }
 
 
+
+//nested loops rocket going from x,y (0,0) to (3,8)
+
+var myrocketx=3;
+var myrockety=8;
+
+for(var i=0; i <= myrocketx ;i++){
+    for(var j=0; j <= myrockety ;j++){
+        console.log("My current coordinates: "+i+","+j);
+    }
+}
+console.log("Successfully Arived at the coordinates!");
+//increments the inner loop then outer loop
+
+
