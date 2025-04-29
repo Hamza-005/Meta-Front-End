@@ -89,3 +89,20 @@ console.log("rounding 2.4: ",Math.round(2.4));
 console.log("rounding 2.6: ",Math.round(2.6));
 
 console.log("trim 2.4: ",Math.trunc(2.4));
+
+
+//power operations
+
+Math.pow(2,3) //2^3
+
+Math.sqrt(16) //square root
+
+Math.cbrt(8) //cube root
+
+Math.abs(-10) //absolute value
+
+//log operations
+
+Math.log(x)     //log of x to the base e
+Math.log2(x)    //log of x to the base 2
+Math.log10(x)   //log of x to the base 10
