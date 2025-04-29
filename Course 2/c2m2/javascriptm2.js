@@ -106,3 +106,49 @@ Math.abs(-10) //absolute value
 Math.log(x)     //log of x to the base e
 Math.log2(x)    //log of x to the base 2
 Math.log10(x)   //log of x to the base 10
+
+//string ops
+
+"ho-ho-ho".indexOf('h'); // 0
+"ho-ho-ho".indexOf('o'); // 1
+"ho-ho-ho".indexOf('-'); // 2
+"Wo".concat("rl").concat("d"); // 'World'
+
+greet.toUpperCase(); // "HELLO, "
+greet.toLowerCase(); // "hello, "
+
+
+
+var clothes=[];
+clothes.push("tommy");
+clothes.push("golf");
+clothes.push("boss");
+clothes.push("lacoste");
+clothes.push("bugatti");
+clothes.pop();
+clothes.push("yves saint laurent");
+
+console.log(clothes[3]);
+
+var favcar={};
+favcar.color="bleu";
+favcar.convertible=true;
+console.log(favcar);
+
+
+
+//carobject with function
+var car = {};
+car.mileage = 98765;
+car.color = "red";
+console.log(car);
+car.turnTheKey = function() {
+    console.log("The engine is running")
+}
+car.lightsOn = function() {
+    console.log("The lights are on.")
+}
+console.log(car);
+car.turnTheKey();
+car.lightsOn()
+
