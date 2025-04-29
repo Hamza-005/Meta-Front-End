@@ -79,7 +79,7 @@ var e=Math.E;
 var pi=Math.PI;
 
 console.log(e,pi);
-//rounding:
+//rounding using math:
 
 console.log("Ceiling 2.1: ",Math.ceil(2.1));
 console.log("Floor 2.9: ",Math.floor(2.9));
