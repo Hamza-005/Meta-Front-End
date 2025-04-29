@@ -72,3 +72,20 @@ console.log("new array: \n");
 console.log(fruits);
 arropsfruits(fruits);
 
+//Math objects:
+
+//constants:
+var e=Math.E;
+var pi=Math.PI;
+
+console.log(e,pi);
+//rounding:
+
+console.log("Ceiling 2.1: ",Math.ceil(2.1));
+console.log("Floor 2.9: ",Math.floor(2.9));
+
+console.log("rounding 2.5: ",Math.round(2.5));
+console.log("rounding 2.4: ",Math.round(2.4));
+console.log("rounding 2.6: ",Math.round(2.6));
+
+console.log("trim 2.4: ",Math.trunc(2.4));
