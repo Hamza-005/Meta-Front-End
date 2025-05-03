@@ -167,3 +167,18 @@ try {
 } catch (error) {
     console.log("LETS GET LOUD !")
 }
+
+function addTwoNums(a,b){
+    try{
+        if(typeof a!=typeof b){
+            throw new TypeError("Not happenin kid");
+        }else{
+            console.log(a+b);
+        }
+    }catch(err){
+        console.log(err);
+    }
+}
+
+addTwoNums(5,"55");
+addTwoNums(5,5);
