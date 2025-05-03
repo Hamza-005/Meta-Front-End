@@ -91,28 +91,30 @@ console.log("rounding 2.6: ",Math.round(2.6));
 console.log("trim 2.4: ",Math.trunc(2.4));
 
 
-//power operations
+// //power operations
 
-Math.pow(2,3) //2^3
+// Math.pow(2,3) //2^3
 
-Math.sqrt(16) //square root
+// Math.sqrt(16) //square root
 
-Math.cbrt(8) //cube root
+// Math.cbrt(8) //cube root
 
-Math.abs(-10) //absolute value
+// Math.abs(-10) //absolute value
 
-//log operations
+// //log operations
 
-Math.log(x)     //log of x to the base e
-Math.log2(x)    //log of x to the base 2
-Math.log10(x)   //log of x to the base 10
+// Math.log(x)     //log of x to the base e
+// Math.log2(x)    //log of x to the base 2
+// Math.log10(x)   //log of x to the base 10
 
-//string ops
+// //string ops
 
 "ho-ho-ho".indexOf('h'); // 0
 "ho-ho-ho".indexOf('o'); // 1
 "ho-ho-ho".indexOf('-'); // 2
 "Wo".concat("rl").concat("d"); // 'World'
+
+var greet = "Hello"
 
 greet.toUpperCase(); // "HELLO, "
 greet.toLowerCase(); // "hello, "
@@ -152,3 +154,16 @@ console.log(car);
 car.turnTheKey();
 car.lightsOn()
 
+var c = null
+var a =5;
+try {
+    console.log(c+d);
+} catch (error) {
+    console.log("Error occured");
+}
+
+try {
+    throw new Error("Not happenin kid");
+} catch (error) {
+    console.log("LETS GET LOUD !")
+}
