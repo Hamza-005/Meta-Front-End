@@ -42,3 +42,8 @@ function styleAndCelebrate(color, background, fontSize, txt, reason) {
 }
 
 styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
+
+//let if the value might change in the future
+//const if value will never change
+//cant access let before declaring it 
+//can access var before declaring it 
